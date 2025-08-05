@@ -145,14 +145,14 @@ namespace MiniApp1_ContactManager
                     contact.Name_V = name;
                 }
 
-                Console.Write("Enter new name (or press Enter to keep current): ");
+                Console.Write("Enter new email (or press Enter to keep current): ");
                 string email = Console.ReadLine();
                 if (!string.IsNullOrEmpty(email))
                 {
                     contact.Email_V = email;
                 }
 
-                Console.Write("Enter new name (or press Enter to keep current): ");
+                Console.Write("Enter new phone number (or press Enter to keep current): ");
                 string phone = Console.ReadLine();
                 if (!string.IsNullOrEmpty(phone))
                 {
